@@ -30,7 +30,7 @@ img{
     height: 100%;
     width: 100%;
     margin:auto;
-    background:url('../images/pg.jpg') no-repeat center center/cover;
+    background:url('images/pg.jpg') no-repeat center center/cover;
     background-size: cover;
     display:table;
     top: 0;
