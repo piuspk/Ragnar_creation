@@ -3,17 +3,20 @@ html,body{
     padding:0;
     width:100%;
     height:100%;
+    background-color:black;
+    
 }
+
 h2{
     font-size:300%;
     font-weight:700;
-    color:black;
+    color:rgb(255, 255, 255);
     text-align:center;
     text-decoration: underline;
 }
 p{
     font-family: "Helvetica Neue",Helvetica,Arial;
-    color: #2c2c2c;
+    color: #ffffff;
     font-size: 140%;
     line-height: 180%;
     text-align: justify;
@@ -25,6 +28,7 @@ img{
     max-width: 100%;
     height: auto;
     width: auto;
+    box-shadow: 5px 5px 18px rgb(142, 139, 139);
 }
 .intro{
     height: 100%;
@@ -50,7 +54,7 @@ h1{
     font-family:Arial, Helvetica, sans-serif;
     font-size:250%;
     font-weight:700;
-    color:white;
+    color:rgb(237, 237, 237);
     text-align:center;
     padding:2%;
     text-shadow:0px 0px 250px white;
@@ -117,12 +121,13 @@ nav:hover ul{
     width:26%;
     float:left;
     margin:4% 0 4% 4%;
-
+    
 }
 .sidebar{
     width: 32%;
     float:left;
     margin: 12% 0% 2% 22%; 
+    
 
 
 }
@@ -137,7 +142,9 @@ nav:hover ul{
 
 }
 .one-third-port img:hover{
-    opacity:0.5;
+    opacity:0.7;
+    transform: scale(1.2);
+    transition: all .25s ease-in-out;
 }
 .contact p{
     text-align:center;
@@ -171,10 +178,11 @@ nav:hover ul{
 .social i{
     font-size:180%;
     margin:1% 5% 7% 4%;
-    color:#bf6767;
+    color:#fd0000;
+    
 }
 .social i:hover{
-    color:rgb(255, 0, 25);
+    background-color:rgb(39, 11, 199);
     
 }
 footer.second{
@@ -242,6 +250,7 @@ footer.second p{
         padding-top:35%;
     
     }
+
     .break{
         display: inline;
     }
